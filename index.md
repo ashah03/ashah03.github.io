@@ -1,6 +1,7 @@
 ---
-layout: post
-title: Welcome to my website!
+layout: page
+title: About Me
+permalink: /
 ---
 
 My name is Adit Shah, and I am an 11th grade student at the Athenian School. Here are some useful links about me:
