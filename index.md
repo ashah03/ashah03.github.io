@@ -19,7 +19,7 @@ At [Avi Networks](http://avinetworks.com) (acquired by VMware), I developed a Ma
 
 ### COVID-19
 
-I am currently working with researchers from Stanford, the University of Waterloo, and USC on to create **Covid Now**: a reliable and real-time news platform about COVID-19. This platform will feature a proprietary algorithm that cross-references all information on reliable websites and displays a reliability score and display relevant information from the most reliable articles I am also currently a mobile and web developer for [Covid Watch](http://covid-watch.org), an organization working to create an open-source contact-tracing smartphone app to alert people who have been in contact with confirmed coronavirus cases.
+I am currently working with researchers from Stanford, the University of Waterloo, and USC to create **Covid Now**: a reliable and real-time news platform about COVID-19. This platform will feature a proprietary algorithm that cross-references all information on reliable websites and displays a reliability score and display relevant information from the most reliable articles I am also currently a mobile and web developer for [Covid Watch](http://covid-watch.org), an organization working to create an open-source contact-tracing smartphone app to alert people who have been in contact with confirmed coronavirus cases.
  
 ### Gender Equity in STEM
  At my school, I co-founded a STEM gender-equality initiative, [Athenian WiSE](http://athenianwise.org) (Women in Science and Engineering) at my school. Every year, we run an annual event that encourages young women to explore STEM in a hands-on, low-stakes environment.
