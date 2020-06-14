@@ -4,7 +4,7 @@ title: About Me
 permalink: /
 ---
 
-**Hi, my name is Adit Shah!** I am a rising 12th     grade student at The Athenian School. I encourage you to check out my [blog](blog.{{site.baseurl}})!
+**Hi, my name is Adit Shah!** I am a rising 12th     grade student at The Athenian School. I encourage you to check out my [blog](blog.aditshah.com)!
 
 Feel free to contact me about anything at [aditshah00@gmail.com](mailto:aditshah00@gmail.com)!
 
