@@ -13,7 +13,15 @@ Last summer, I performed research at UC Santa Barbara, where I simulated and dev
 
 ## Internships
 
-At [Avi Networks](http://avinetworks.com) (acquired by VMware), I developed a Machine Learning proof of concept for their WAF (Web Application Firewall) product, and developed automation software in Python and Ansible for testing their service on a specific platform. At [Positronics](http://posincorp.com), I demonstrated the efficacy of using ROS to control their [UR5](https://www.universal-robots.com/products/ur5-robot/) industrial robotic arm, and developed a proof-of-concept for using computer vision with ROS. At [Robolink](https://www.robolink.com/), a robotics education company,  I developed software for Zumi, a CES award-winning robotics kit and developed Machine Learning demos. I also helped run their Maker Faire booth, where I did demonstrations and helped market their products and classes.
+### [Avi Networks](http://avinetworks.com) (acquired by VMware)
+I developed a Machine Learning proof of concept for their WAF (Web Application Firewall) product, and developed automation software in Python and Ansible for testing their service on a specific platform. 
+
+### [Positronics](http://posincorp.com)
+ I demonstrated the efficacy of using ROS to control their [UR5](https://www.universal-robots.com/products/ur5-robot/) industrial robotic arm, and developed a proof-of-concept for using computer vision with ROS.
+  
+### [Robolink](https://www.robolink.com/)
+
+I developed software for Zumi, a CES award-winning robotics education kit, and developed Machine Learning demos. I also helped run their Maker Faire booth, where I did demonstrations and helped market their products and classes.
 
 ## Initiatives
 
