@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Research Associate @ Columbia
+subtitle: Research Associate @ Columbia · Prev. EECS @ Berkeley
 
 profile:
   align: right
