@@ -25,4 +25,4 @@ I was previously the first computational hire at Until Labs, where I did all thi
 
 I've also worked on machine learning methods for brain-to-speech interfaces for paralyzed patients, as well as on using semi-autonomous vehicles to mitigate traffic congestion and reduce carbon emissions.
 
-I'm currently thinking and reading about ML, biophysics, [orders of magnitude](https://www.youtube.com/watch?v=0fKBhvDjuy0), and [urbanism](https://en.wikipedia.org/wiki/Georgism). Feel free to reach out!
+Lately I've been thinking about [biophysics](https://www.rpgroup.caltech.edu/pboc2/), [orders of magnitude](https://www.youtube.com/watch?v=0fKBhvDjuy0), and [urbanism](https://en.wikipedia.org/wiki/Georgism). Feel free to reach out!
