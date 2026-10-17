@@ -89,7 +89,7 @@
             {%- if group_size < 3 -%}
               {{ group_names }}
             {%- else -%}
-              <span class="more-authors" title="click to view" data-names="{{ group_names | escape }}" onclick="this.outerHTML = this.dataset.names;">
+              <span class="more-authors" title="click to expand / collapse" data-names="{{ group_names | escape }}" data-label="{{ group_size }} more authors" onclick="this.textContent = this.textContent.trim() === this.dataset.label ? this.dataset.names : this.dataset.label;">
                 {{- group_size }} more author{% if group_size > 1 %}s{% endif %}</span
               >
             {%- endif -%}
@@ -132,7 +132,7 @@
         {%- if group_size < 3 -%}
           , {% if group_size == 2 %}{{ group_head }}, {% endif %}and {{ group_last }}
         {%- else -%}
-          , <span class="more-authors" title="click to view" data-names="{{ group_names | escape }}" onclick="this.outerHTML = this.dataset.names;">
+          , <span class="more-authors" title="click to expand / collapse" data-names="{{ group_names | escape }}" data-label="{{ group_size }} more authors" onclick="this.textContent = this.textContent.trim() === this.dataset.label ? this.dataset.names : this.dataset.label;">
             {{- group_size }} more authors</span
           >
         {%- endif -%}
