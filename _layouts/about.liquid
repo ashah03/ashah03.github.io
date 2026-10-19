@@ -56,11 +56,22 @@ layout: default
       {% include latest_posts.liquid %}
     {% endif %}
 
+    <!-- Experience -->
+    {% if site.data.experience %}
+      <h2>Experience</h2>
+      <div class="experience" style="margin-bottom: 1.5rem">
+        {% for item in site.data.experience %}
+          <div style="display: flex; gap: 0.75rem; margin-bottom: 0.3rem">
+            <div style="flex: 0 0 6.25rem; color: var(--global-text-color-light)">{{ item.years }}</div>
+            <div><strong>{{ item.org }}</strong>, {{ item.role }}</div>
+          </div>
+        {% endfor %}
+      </div>
+    {% endif %}
+
     <!-- Selected papers -->
     {% if page.selected_papers %}
-      <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">Publications</a>
-      </h2>
+      <h2>Publications</h2>
       {% include selected_papers.liquid %}
     {% endif %}
 
