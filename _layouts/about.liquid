@@ -59,14 +59,46 @@ layout: default
     <!-- Experience -->
     {% if site.data.experience %}
       <h2>Experience</h2>
-      <div class="experience" style="margin-bottom: 1.5rem">
+      <style>
+        .exp-timeline {
+          list-style: none;
+          margin: 0.5rem 0 1.5rem 0.4rem;
+          padding: 0 0 0 1.25rem;
+          border-left: 2px solid var(--global-divider-color);
+        }
+        .exp-timeline li {
+          position: relative;
+          padding-bottom: 0.9rem;
+        }
+        .exp-timeline li:last-child {
+          padding-bottom: 0;
+        }
+        .exp-timeline li::before {
+          content: '';
+          position: absolute;
+          left: calc(-1.25rem - 6px);
+          top: 0.45rem;
+          width: 10px;
+          height: 10px;
+          border-radius: 50%;
+          background: var(--global-theme-color);
+        }
+        .exp-timeline .exp-years {
+          color: var(--global-text-color-light);
+          margin-left: 0.4rem;
+        }
+        .exp-timeline .exp-role {
+          color: var(--global-text-color-light);
+        }
+      </style>
+      <ul class="exp-timeline experience">
         {% for item in site.data.experience %}
-          <div style="display: flex; gap: 0.75rem; margin-bottom: 0.3rem">
-            <div style="flex: 0 0 6.25rem; color: var(--global-text-color-light)">{{ item.years }}</div>
-            <div><strong>{{ item.org }}</strong>, {{ item.role }}</div>
-          </div>
+          <li>
+            <div><strong>{{ item.org }}</strong><span class="exp-years">{{ item.years }}</span></div>
+            <div class="exp-role">{{ item.role }}</div>
+          </li>
         {% endfor %}
-      </div>
+      </ul>
     {% endif %}
 
     <!-- Selected papers -->
